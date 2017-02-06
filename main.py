@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-from flask.ext.bootstrap import Bootstrap
+from flask_bootstrap import Bootstrap
 import arrow
 
 app = Flask(__name__)
@@ -14,7 +14,7 @@ def days_until_midterms(date=arrow.utcnow()):
     
 @app.route('/')
 def index():
-    return render_template('index.html', midterm_days=days_until_midterms())
+    return render_template('index.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
