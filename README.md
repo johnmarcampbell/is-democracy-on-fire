@@ -1,4 +1,4 @@
-# is-democracy-on-fire
+# [is-democracy-on-fire](http://isdemocracyonfire.com)
 A Flask implementation of a simple website, designed to answer a burning question
 
 ##Intro
